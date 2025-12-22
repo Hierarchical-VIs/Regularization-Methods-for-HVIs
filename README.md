@@ -9,7 +9,7 @@ described in [[1]](#1).
 The package is available through pip, and may be installed via:
 
 ```bash
-pip install Regularisation_Methods_for_HVIs
+pip install Regularisation-Methods-for-HVIs
 ```
 
 If running the package locally, you can install it using:
@@ -20,8 +20,9 @@ pip install .
 
 ## Examples
 
-Examples may in found in the [/examples](/examples) directory of the repository. These examples additionally constitute
-the plots generated in the paper [[1]](#1).
+Examples may in found in
+the [/examples](https://github.com/Hierarchical-VIs/Regularisation-Methods-for-HVIs/tree/main/examples) directory of the
+repository. These examples additionally constitute the plots generated in the paper [[1]](#1).
 
 ## References
 

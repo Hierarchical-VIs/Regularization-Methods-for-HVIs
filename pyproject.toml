@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Regularisation_Methods_for_HVIs"
-version = "0.0.1"
+version = "1.1"
 authors = [
     { name = "Daniel Cortild", email = "daniel.cortild@maths.ox.ac.uk" },
     { name = "Meggie Marschner", email = "meggie.marschner@uni-mannheim.de" },
