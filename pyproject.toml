@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Regularisation_Methods_for_HVIs"
+name = "Regularization_Methods_for_HVIs"
 version = "1.1"
 authors = [
     { name = "Daniel Cortild", email = "daniel.cortild@maths.ox.ac.uk" },
@@ -25,8 +25,8 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/Hierarchical-VIs/Regularisation-Methods-for-HVIs"
-Issues = "https://github.com/Hierarchical-VIs/Regularisation-Methods-for-HVIs/issues"
+Homepage = "https://github.com/Hierarchical-VIs/Regularization-Methods-for-HVIs"
+Issues = "https://github.com/Hierarchical-VIs/Regularization-Methods-for-HVIs/issues"
 
 [options]
 install_requires = [

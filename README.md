@@ -1,4 +1,4 @@
-# Regularisation Methods for HVIs
+# Regularization Methods for HVIs
 
 This repository contains a hierarchical solver packaged for Python. The solver is aimed at variational inequalities
 defined over the solution set of a monotone inclusion problem. The problem setting and the employed algorithm are
@@ -9,7 +9,7 @@ described in [[1]](#1).
 The package is available through pip, and may be installed via:
 
 ```bash
-pip install Regularisation-Methods-for-HVIs
+pip install Regularization-Methods-for-HVIs
 ```
 
 If running the package locally, you can install it using:
@@ -21,7 +21,7 @@ pip install .
 ## Examples
 
 Examples may in found in
-the [/examples](https://github.com/Hierarchical-VIs/Regularisation-Methods-for-HVIs/tree/main/examples) directory of the
+the [/examples](https://github.com/Hierarchical-VIs/Regularization-Methods-for-HVIs/tree/main/examples) directory of the
 repository. These examples additionally constitute the plots generated in the paper [[1]](#1).
 
 ## References

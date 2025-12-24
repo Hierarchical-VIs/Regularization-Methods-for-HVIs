@@ -6,7 +6,7 @@ import scipy as sp
 from tqdm import tqdm
 import time
 
-from Regularisation_Methods_for_HVIs import (
+from Regularization_Methods_for_HVIs import (
     Scheduler,
     Algorithm,
     LipschitzMonotoneOperator, MaximallyMonotoneOperator,
