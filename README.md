@@ -26,4 +26,4 @@ repository. These examples additionally constitute the plots generated in the pa
 
 ## References
 
-<a id="1">[1]</a> Yet unpublished. 
+<a id="1">[1]</a> Cortild D., Marschner M., & Staudigl M. (2025). Regularization Methods for Solving Hierarchical Variational Inequalities with Complexity Guarantees. arXiv preprint arXiv:2512.20772. [https://doi.org/10.48550/arXiv.2512.20772](https://doi.org/10.48550/arXiv.2512.20772).
