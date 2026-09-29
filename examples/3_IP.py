@@ -58,8 +58,6 @@ max_iterations = 5000            # Number of iterations for the algorithm
 beta = Scheduler(0.55)           # Beta parameter for Tikhonov regularization
 epsilon = Scheduler(2, 2)        # Epsilon parameter for convergence criterion of sub-problem
 
-theta = 0.75
-
 ###################
 # Run Experiments #
 ###################
@@ -73,10 +71,10 @@ Xs = [None] * len(ALPHAS)
 def run_experiment(i):
     # Create instance of algorithm with defined parameters
     algorithm = Algorithm(problem, max_iterations, beta, epsilon)
-    Xs[i] = algorithm.solve(X_corrupt, theta, ALPHAS[i], progress=tqdm, method="TOS")
+    Xs[i] = algorithm.solve(X_corrupt, ALPHAS[i], progress=tqdm, method="TOS")
     print(f"Number of iterations for alpha={ALPHAS[i]}: {algorithm.total_inner_iterations}")
 
-if False:
+if True:
     run_experiment(0)
     run_experiment(1)
     run_experiment(2)

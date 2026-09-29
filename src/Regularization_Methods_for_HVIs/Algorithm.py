@@ -12,7 +12,7 @@ class Algorithm:
 
         self.total_inner_iterations = 0
 
-    def solve(self, w0, theta, alpha, progress=None, method="FB"):
+    def solve(self, w0, alpha, progress=None, method="FB"):
         wts = [w0]
 
         for t in progress(range(self.max_iterations)) if progress else range(self.max_iterations):
@@ -30,7 +30,7 @@ class Algorithm:
                 raise ValueError("Method not implemented")
 
             # Solve the sub-problem using the Forward-Backward operator
-            wts += [T.solve_to_accuracy_with_acceleration(wts[-1], theta, eps_t)]
+            wts += [T.solve_to_accuracy(wts[-1], eps_t)]
 
             self.total_inner_iterations += T.number_iterations
 

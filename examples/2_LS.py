@@ -25,9 +25,6 @@ dimensions = [(70, 100), (100, 200), (100, 500), (300, 500)]
 # Rank of random matrix
 r = 50
 
-# Relaxation parameter in KM iteration
-theta = 0.75
-
 # Proximal Parameter (There must be 3 of them for plotting purposes)
 alphas = [0.1, 1, 10]
 
@@ -101,7 +98,7 @@ for dim_idx, (m, n) in enumerate(dimensions):
         # Random initial point
         w0 = np.random.normal(0, 0.1, n)
 
-        results[dim_idx][alpha_idx] = algorithm.solve(w0, theta, alpha, progress=tqdm)
+        results[dim_idx][alpha_idx] = algorithm.solve(w0, alpha, progress=tqdm)
 
 fig_width, fig_height = 3, 1
 fig, axs = plt.subplots(fig_height, fig_width, figsize=(10, 2.5), dpi=300, sharex=True, sharey=True)
